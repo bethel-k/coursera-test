@@ -1,1 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI Semibold, sans-serif;
 
+}
+body{
+    height: 100hv;
+    
+       
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    width: 150px;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    
+}
+
+.int.food-lg-4{
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  
+}
+
+.chi{
+    background-color: rgb(230, 156, 168);
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 0;     
+}
+.beef{
+    background-color: rgb(190, 42, 67);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0;   
+    box-sizing: border-box;
+    color: white;
+    
+}
+.sus{
+     background-color: rgb(240, 233, 163);
+    border: 2px solid black;
+    margin: 0;   
+    display: flex;
+    justify-content: center;  
+    box-sizing: border-box; 
+}
+.food-lg-4  {
+    background-color: rgb(159, 163, 159);
+    border: 2px solid black;
+    margin: auto;
+    padding: 0px;      
+}
+
+main .food-lg-12 .food-lg-6 .food-lg-4 {
+    margin: 5px;
+}
+p {
+    padding: 10px;
+}
+
+/** Large device only**/
+@media (min-width: 992px){
+    .food-lg-1, .food-lg-2, .food-lg-3, .food-lg-4, .food-lg-5, .food-lg-6, .food-lg-7, .food-lg-8, .food-lg-9, .food-lg-10, .food-lg-11, .food-lg-12{
+        float: left;
+        
+    }
+    .food-lg-1{
+        width: 8.33%;
+    }
+    .food-lg-2{
+        width: 16.66%;
+    }
+    .food-lg-3{
+       width: 25%; 
+    }
+    .food-lg-4{
+        width: 33%;
+    }
+    .food-lg-5{
+        width: 41.66%;
+    }
+    .food-lg-6{
+       width: 50%;
+       ; 
+    }
+    .food-lg-7{
+        width: 58.33%;
+    }
+    .food-lg-8{
+        width: 66.64%;
+    }
+    .food-lg-9{
+       width: 66.66%; 
+    }
+    .food-lg-10{
+        width: 33.32%;
+    }
+    .food-lg-11{
+        width: 74.99%;
+    }
+    .food-lg-12{
+       width: 100%; 
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+    .food-md-1, .food-md-2, .food-md-3, .food-md-4, .food-md-5, .food-md-6, .food-md-7, .food-md-8, .food-md-9, .food-md-10, .food-md-11, .food-md-12{
+        float: left;
+        
+    }
+    .food-md-1{
+        width: 8.33%;
+    }
+    .food-md-2{
+        width: 16.66%;
+    }
+    .food-md-3{
+       width: 25%; 
+    }
+    .food-md-4{
+        width: 33%;
+    }
+    .food-md-5{
+        width: 41.66%;
+    }
+    .food-md-6{
+       width: 50%; 
+       
+    }
+    .food-md-7{
+        width: 58.33%;
+    }
+    .food-md-8{
+        width: 66.64%;
+    }
+    .food-md-9{
+       width: 66.66%; 
+    }
+    .food-md-10{
+        width: 33.32%;
+    }
+    .food-md-11{
+        width: 74.99%;
+    }
+    .food-md-12{
+       width: 100%; 
+       
+    }
+    
+    
+}
+@media (max-width:767px){
+    .food-sm-1, .food-sm-2, .food-sm-3, .food-sm-4, .food-sm-5, .food-sm-6, .food-sm-7, .food-sm-8, .food-sm-9, .food-sm-10, .food-sm-11, .food-sm-12{
+        float: left;
+    }
+    .food-sm-1{
+        width: 8.33%;
+    }
+    .food-sm-2{
+        width: 16.66%;
+    }
+    .food-sm-3{
+       width: 25%; 
+    }
+    .food-sm-4{
+        width: 33%;
+    }
+    .food-sm-5{
+        width: 41.66%;
+    }
+    .food-sm-6{
+       width: 50%; 
+    }
+    .food-sm-7{
+        width: 58.33%;
+    }
+    .food-sm-8{
+        width: 66.64%;
+    }
+    .food-sm-9{
+       width: 66.66%; 
+    }
+    .food-sm-10{
+        width: 33.32%;
+    }
+    .food-sm-11{
+        width: 74.99%;
+    }
+    .food-sm-12{
+       width: 100%; 
+    }
+    
+}
